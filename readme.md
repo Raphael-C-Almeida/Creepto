@@ -3,7 +3,7 @@
 Creepto é uma demonstração de ransomware para a disciplina de Segurança do departamento de ciência da computação da UFRJ (Universidade Federal do Rio de Janeiro)
 
 #### Objetivos
-  - Mostrar um programa capaz de criptografar arquivos contra a vontade usuário afim de cobrar um resgate
+  - Mostrar um programa capaz de criptografar arquivos contra a vontade do usuário afim de cobrar um resgate
 
 #### Componentes
   - **creepto.js** - Arquivo principal, responsável por criptografar arquivos com determinadas extensões dentro de um determinado diretório
@@ -47,9 +47,9 @@ Creepto:
 | ------ | ------ | ------ |
 | encryptionAlgorithm | 'aes-256-ctr' | Tipo de criptografia usada |
 | targetFolder | './TestFiles/' | Pasta alvo do ransomware |
-| ignoreListFilePath | '.ignoreList' | Local e nome do arquivo usado para guardar quais arquivos foram afetados |
+| ignoreListFilePath | '.ignoreList' | Local e nome do arquivo usado para guardar quais arquivos serão ignorados |
 | key | '$myvirus_sample_encryption_key!!' | Chave de criptografia |
-| targetExtensions | ['txt', 'png', 'gif', 'jpg', 'pdf'] | Extenções alvo do script |
+| targetExtensions | ['txt', 'png', 'gif', 'jpg', 'pdf'] | Extensões alvo do script |
 | ignoreList | [] | Arquivos que serão ignorados pelo script |
 
 Decreepto:
