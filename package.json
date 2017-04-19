@@ -1,0 +1,16 @@
+{
+  "name": "creepto",
+  "version": "1.0.0",
+  "description": "A ransomware demonstration to UFRJ`s department of computer science",
+  "main": "creepto.js",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "walk": "^2.3.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
