@@ -17,6 +17,7 @@ Creepto é uma demonstração de ransomware para a disciplina de Segurança do d
   - NPM
 
 #### Bibliotecas
+
 | Nome | Link |
 | ------ | ------ |
 | Crypto | [Gozala/crypto](https://github.com/Gozala/crypto) |
@@ -41,7 +42,8 @@ $ node ./decreepto.js "filename"
 
 ## Configurações
 Creepto:
-| Propriedade | Configuração Padrão | Comportamento
+
+| Propriedade | Configuração Padrão | Comportamento |
 | ------ | ------ | ------ |
 | encryptionAlgorithm | 'aes-256-ctr' | Tipo de criptografia usada |
 | targetFolder | './TestFiles/' | Pasta alvo do ransomware |
@@ -49,8 +51,10 @@ Creepto:
 | key | '$myvirus_sample_encryption_key!!' | Chave de criptografia |
 | targetExtensions | ['txt', 'png', 'gif', 'jpg', 'pdf'] | Extenções alvo do script |
 | ignoreList | [] | Arquivos que serão ignorados pelo script |
+
 Decreepto:
-| Propriedade | Configuração Padrão | Comportamento
+
+| Propriedade | Configuração Padrão | Comportamento |
 | ------ | ------ | ------ |
 | encryptionAlgorithm | 'aes-256-ctr' | Tipo de criptografia usada |
 | key | '$myvirus_sample_encryption_key!!' | Chave de criptografia |
